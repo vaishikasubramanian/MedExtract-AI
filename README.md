@@ -65,7 +65,7 @@ Each stage records timing metrics to a thread-safe collector. The engine catches
 
 ```bash
 # 1. Clone and install
-git clone https://github.com/your-username/MedExtract-AI.git && cd MedExtract-AI
+git clone https://github.com/vaishikasubramanian/MedExtract-AI.git && cd MedExtract-AI
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
