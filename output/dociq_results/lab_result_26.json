@@ -1,0 +1,40 @@
+{
+  "file": "lab_result_26.png",
+  "status": "ok",
+  "text": "te of Birth: 1959-01-30\nm Date: 2025-01-06\nic: Gomez and Sons\nResults\ny Test 22.29 (Ret 10-38)\nar Test 18.59 (Ref 29-42)\nng Test 15.53 (Ref 17-60)\nor Test 45.75 (Ref: 27-52)\nary. Military information cary of sport low marriage customer allow.",
+  "language": "en",
+  "language_hint": "unknown",
+  "language_sample": "",
+  "method": "image",
+  "document_type": "result",
+  "extracted_data": {
+    "patient_name": null,
+    "patient_id": null,
+    "age": null,
+    "sex": null,
+    "date_of_birth": null,
+    "exam_type": null,
+    "study_area": null,
+    "exam_date": null,
+    "findings": "No findings recorded",
+    "impression": null,
+    "professional": null,
+    "institution": null,
+    "notes": null,
+    "raw_text": "te of Birth: 1959-01-30\nm Date: 2025-01-06\nic: Gomez and Sons\nResults\ny Test 22.29 (Ret 10-38)\nar Test 18.59 (Ref 29-42)\nng Test 15.53 (Ref 17-60)\nor Test 45.75 (Ref: 27-52)\nary. Military information cary of sport low marriage customer allow."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 15390
+}6",
+    "findings": "Why Test: 22.29 (Reference: 10-38); Wear Test: 18.59 (Reference: 29-42); Thing Test: 15.53 (Reference: 17-60); Senior Test: 45.75 (Reference: 27-52)",
+    "impression": "Military information carry of sport low marriage customer allow.",
+    "professional": null,
+    "institution": "Gomez and Sons",
+    "notes": null,
+    "raw_text": "--- Page 1 ---\nPatient Name: Jason Davis\nPatient ID: 91557\nDate of Birth: 1959-01-30\nExam Date: 2025-01-06\nClinic: Gomez and Sons\nTest Results:\n- Why Test: 22.29 (Ref: 10-38)\n- Wear Test: 18.59 (Ref: 29-42)\n- Thing Test: 15.53 (Ref: 17-60)\n- Senior Test: 45.75 (Ref: 27-52)\nSummary: Military information carry of sport low marriage customer allow."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 16
+}

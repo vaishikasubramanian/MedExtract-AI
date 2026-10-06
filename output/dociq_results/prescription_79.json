@@ -1,0 +1,29 @@
+{
+  "file": "prescription_79.pdf",
+  "status": "ok",
+  "text": "--- Page 1 ---\nPatient Name: Aurelia Codina Coca\nPatient ID: 17836\nDate of Birth: 1933-06-29\nDate of Prescription: 2025-01-18\nDoctor: Margarita Crespi-Viñas\nClinic: Alberola, Palomino and Falcó\nPrescription:\nFuga perferendis reprehenderit possimus necessitatibus accusamus.",
+  "language": "en",
+  "language_hint": "en",
+  "language_sample": "Patient Name: Aurelia Codina Coca\nPatient ID: 17836\nDate of Birth: 1933-06-29\nDate of Prescription: 2025-01-18\nDoctor: Margarita Crespi-Viñas\nClinic: Alberola, Palomino and Falcó\nPrescription:\nFuga perferendis reprehenderit possimus necessitatibus accusamus.",
+  "method": "direct",
+  "document_type": "prescription",
+  "extracted_data": {
+    "patient_name": "Aurelia Codina Coca",
+    "patient_id": "17836",
+    "date": "2025-01-18",
+    "doctor_name": "Margarita Crespi-Viñas",
+    "institution": "Alberola, Palomino and Falcó",
+    "additional_notes": null,
+    "items": [
+      {
+        "type": "other",
+        "name": "Fuga perferendis reprehenderit possimus necessitatibus accusamus.",
+        "notes": null
+      }
+    ],
+    "raw_text": "--- Page 1 ---\nPatient Name: Aurelia Codina Coca\nPatient ID: 17836\nDate of Birth: 1933-06-29\nDate of Prescription: 2025-01-18\nDoctor: Margarita Crespi-Viñas\nClinic: Alberola, Palomino and Falcó\nPrescription:\nFuga perferendis reprehenderit possimus necessitatibus accusamus."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 31
+}

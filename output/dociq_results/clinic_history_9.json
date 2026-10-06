@@ -1,0 +1,37 @@
+{
+  "file": "clinic_history_9.png",
+  "status": "ok",
+  "text": "hent ID.11139\nte of Birth: 1933-02-17\nnic: Trevino-Vincent\nnotations\n25-01-10: Show fund individual carry. Vote speech and attention.\n25-04-03: Decade goal necessary capital page.\n25-03-21: Same unde rstand college likely.",
+  "language": "en",
+  "language_hint": "unknown",
+  "language_sample": "",
+  "method": "image",
+  "document_type": "unknown",
+  "extracted_data": null,
+  "validated": false,
+  "error": null,
+  "elapsed_ms": 4922
+}ent Name: Matthew Walton\nPatient ID: 11139\nDate of Birth: 1933-02-17\nClinic: Trevino-Vincent\nAnnotations:\n- 2025-01-10: Show fund individual carry. Vote speech and attention.\n- 2025-04-03: Decade goal necessary capital page.\n- 2025-02-18: Central support town answer total listen. Myself task situation.\n- 2025-03-21: Same understand college likely.",
+  "method": "direct",
+  "document_type": "clinical_history",
+  "extracted_data": {
+    "patient_name": "Matthew Walton",
+    "patient_id": "11139",
+    "age": 1,
+    "sex": null,
+    "date_of_birth": "1933-02-17",
+    "consultation_date": "2025-04-03",
+    "chief_complaint": "Decade goal necessary capital page.",
+    "medical_history": "2025-01-10: Show fund individual carry. Vote speech and attention.\n2025-04-03: Decade goal necessary capital page.\n2025-02-18: Central support town answer total listen. Myself task situation.\n2025-03-21: Same understand college likely.",
+    "current_medications": null,
+    "physical_exam": null,
+    "assessment": null,
+    "plan": null,
+    "doctor_name": null,
+    "institution": "Trevino-Vincent",
+    "raw_text": "--- Page 1 ---\nPatient Name: Matthew Walton\nPatient ID: 11139\nDate of Birth: 1933-02-17\nClinic: Trevino-Vincent\nAnnotations:\n- 2025-01-10: Show fund individual carry. Vote speech and attention.\n- 2025-04-03: Decade goal necessary capital page.\n- 2025-02-18: Central support town answer total listen. Myself task situation.\n- 2025-03-21: Same understand college likely."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 14
+}

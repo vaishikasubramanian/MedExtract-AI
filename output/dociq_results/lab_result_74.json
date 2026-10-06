@@ -1,0 +1,41 @@
+{
+  "file": "lab_result_74.png",
+  "status": "ok",
+  "text": "e of Birth: 1945-01-04\nim Date: 2025-01-12\nnic: Carranza LLC\nt Results\nam Test 17.35 (Ret 10-36)\nlestias Test 29.22 (Ref. 20-40)\nas Test 13.52 (Ret 14-54)\nTest 18.24 (Ret 16-50)\nmary. Neque adipisci at etaperiam commodi ut ipsum.",
+  "language": "en",
+  "language_hint": "unknown",
+  "language_sample": "",
+  "method": "image",
+  "document_type": "result",
+  "extracted_data": {
+    "patient_name": null,
+    "patient_id": null,
+    "age": null,
+    "sex": null,
+    "date_of_birth": null,
+    "exam_type": null,
+    "study_area": null,
+    "exam_date": null,
+    "findings": "No findings recorded",
+    "impression": null,
+    "professional": null,
+    "institution": null,
+    "notes": null,
+    "raw_text": "e of Birth: 1945-01-04\nim Date: 2025-01-12\nnic: Carranza LLC\nt Results\nam Test 17.35 (Ret 10-36)\nlestias Test 29.22 (Ref. 20-40)\nas Test 13.52 (Ret 14-54)\nTest 18.24 (Ret 16-50)\nmary. Neque adipisci at etaperiam commodi ut ipsum."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 19000
+}ull,
+    "exam_date": "2025-01-12",
+    "findings": "Ullam Test: 17.35 (Reference: 10-36); Molestias Test: 29.22 (Reference: 20-40); Alias Test: 13.52 (Reference: 14-54); Eos Test: 18.24 (Reference: 16-50)",
+    "impression": "Neque adipisci at et aperiam commodi ut ipsum.",
+    "professional": null,
+    "institution": "Carranza LLC",
+    "notes": null,
+    "raw_text": "--- Page 1 ---\nPatient Name: Susanita Pelayo Sanabria\nPatient ID: 77755\nDate of Birth: 1945-01-04\nExam Date: 2025-01-12\nClinic: Carranza LLC\nTest Results:\n- Ullam Test: 17.35 (Ref: 10-36)\n- Molestias Test: 29.22 (Ref: 20-40)\n- Alias Test: 13.52 (Ref: 14-54)\n- Eos Test: 18.24 (Ref: 16-50)\nSummary: Neque adipisci at et aperiam commodi ut ipsum."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 14
+}

@@ -1,0 +1,29 @@
+{
+  "file": "lab_result_80.pdf",
+  "status": "ok",
+  "text": "--- Page 1 ---\nPatient Name: Toño Cañizares Sarabia\nPatient ID: 21490\nDate of Birth: 1948-03-01\nExam Date: 2025-02-28\nClinic: Rojas, Chico and Abellán\nTest Results:\n- Consequuntur Test: 56.49 (Ref: 28-59)\n- Cupiditate Test: 43.45 (Ref: 23-53)\n- Vel Test: 56.50 (Ref: 26-42)\n- Aperiam Test: 21.58 (Ref: 12-41)\n- Eius Test: 26.34 (Ref: 25-60)\nSummary: Sit inventore aliquid cum odit voluptate reiciendis ullam porro minus suscipit.",
+  "language": "en",
+  "language_hint": "en",
+  "language_sample": "Patient Name: Toño Cañizares Sarabia\nPatient ID: 21490\nDate of Birth: 1948-03-01\nExam Date: 2025-02-28\nClinic: Rojas, Chico and Abellán\nTest Results:\n- Consequuntur Test: 56.49 (Ref: 28-59)\n- Cupiditate Test: 43.45 (Ref: 23-53)\n- Vel Test: 56.50 (Ref: 26-42)\n- Aperiam Test: 21.58 (Ref: 12-41)\n- Eius Test: 26.34 (Ref: 25-60)\nSummary: Sit inventore aliquid cum odit voluptate reiciendis ullam porro minus suscipit.",
+  "method": "direct",
+  "document_type": "result",
+  "extracted_data": {
+    "patient_name": "Toño Cañizares Sarabia",
+    "patient_id": "21490",
+    "age": 1,
+    "sex": null,
+    "date_of_birth": "1948-03-01",
+    "exam_type": "Laboratory Test",
+    "study_area": null,
+    "exam_date": "2025-02-28",
+    "findings": "Consequuntur Test: 56.49 (Reference: 28-59); Cupiditate Test: 43.45 (Reference: 23-53); Vel Test: 56.50 (Reference: 26-42); Aperiam Test: 21.58 (Reference: 12-41); Eius Test: 26.34 (Reference: 25-60)",
+    "impression": "Sit inventore aliquid cum odit voluptate reiciendis ullam porro minus suscipit.",
+    "professional": null,
+    "institution": "Rojas, Chico and Abellán",
+    "notes": null,
+    "raw_text": "--- Page 1 ---\nPatient Name: Toño Cañizares Sarabia\nPatient ID: 21490\nDate of Birth: 1948-03-01\nExam Date: 2025-02-28\nClinic: Rojas, Chico and Abellán\nTest Results:\n- Consequuntur Test: 56.49 (Ref: 28-59)\n- Cupiditate Test: 43.45 (Ref: 23-53)\n- Vel Test: 56.50 (Ref: 26-42)\n- Aperiam Test: 21.58 (Ref: 12-41)\n- Eius Test: 26.34 (Ref: 25-60)\nSummary: Sit inventore aliquid cum odit voluptate reiciendis ullam porro minus suscipit."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 578
+}

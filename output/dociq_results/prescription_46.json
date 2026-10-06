@@ -1,0 +1,29 @@
+{
+  "file": "prescription_46.pdf",
+  "status": "ok",
+  "text": "--- Page 1 ---\nPatient Name: Irene Vargas Páez\nPatient ID: 12111\nDate of Birth: 2019-11-05\nDate of Prescription: 2025-04-14\nDoctor: Brunilda Martínez-Gimeno\nClinic: Diéguez, Rosales and Mascaró\nPrescription:\nPossimus ipsum eligendi recusandae consequatur harum itaque earum animi expedita.",
+  "language": "en",
+  "language_hint": "en",
+  "language_sample": "Patient Name: Irene Vargas Páez\nPatient ID: 12111\nDate of Birth: 2019-11-05\nDate of Prescription: 2025-04-14\nDoctor: Brunilda Martínez-Gimeno\nClinic: Diéguez, Rosales and Mascaró\nPrescription:\nPossimus ipsum eligendi recusandae consequatur harum itaque earum animi expedita.",
+  "method": "direct",
+  "document_type": "prescription",
+  "extracted_data": {
+    "patient_name": "Irene Vargas Páez",
+    "patient_id": "12111",
+    "date": "2025-04-14",
+    "doctor_name": "Brunilda Martínez-Gimeno",
+    "institution": "Diéguez, Rosales and Mascaró",
+    "additional_notes": null,
+    "items": [
+      {
+        "type": "other",
+        "name": "Possimus ipsum eligendi recusandae consequatur harum itaque earum animi expedita.",
+        "notes": null
+      }
+    ],
+    "raw_text": "--- Page 1 ---\nPatient Name: Irene Vargas Páez\nPatient ID: 12111\nDate of Birth: 2019-11-05\nDate of Prescription: 2025-04-14\nDoctor: Brunilda Martínez-Gimeno\nClinic: Diéguez, Rosales and Mascaró\nPrescription:\nPossimus ipsum eligendi recusandae consequatur harum itaque earum animi expedita."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 32
+}

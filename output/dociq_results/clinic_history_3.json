@@ -1,0 +1,30 @@
+{
+  "file": "clinic_history_3.pdf",
+  "status": "ok",
+  "text": "--- Page 1 ---\nPatient Name: Meghan Fox\nPatient ID: 57881\nDate of Birth: 1985-06-30\nClinic: Johnson, Stevenson and Brown\nAnnotations:\n- 2025-03-24: Any third take put big compare. Your coach artist.\n- 2025-01-19: Better whole from factor exactly be responsibility. Church stand two food ask development \n- 2025-01-29: At pull him everyone your color couple.\n- 2025-03-02: Help may available individual leader heart. There power will attention attack.",
+  "language": "unknown",
+  "language_hint": "unknown",
+  "language_sample": "Patient Name: Meghan Fox\nPatient ID: 57881\nDate of Birth: 1985-06-30\nClinic: Johnson, Stevenson and Brown\nAnnotations:\n- 2025-03-24: Any third take put big compare. Your coach artist.\n- 2025-01-19: Better whole from factor exactly be responsibility. Church stand two food ask development \n- 2025-01-29: At pull him everyone your color couple.\n- 2025-03-02: Help may available individual leader heart. There power will attention attack.",
+  "method": "direct",
+  "document_type": "clinical_history",
+  "extracted_data": {
+    "patient_name": "Meghan Fox",
+    "patient_id": "57881",
+    "age": 1,
+    "sex": null,
+    "date_of_birth": "1985-06-30",
+    "consultation_date": "2025-03-24",
+    "chief_complaint": "Any third take put big compare. Your coach artist.",
+    "medical_history": "2025-03-24: Any third take put big compare. Your coach artist.\n2025-01-19: Better whole from factor exactly be responsibility. Church stand two food ask development\n2025-01-29: At pull him everyone your color couple.\n2025-03-02: Help may available individual leader heart. There power will attention attack.",
+    "current_medications": null,
+    "physical_exam": null,
+    "assessment": null,
+    "plan": null,
+    "doctor_name": null,
+    "institution": "Johnson, Stevenson and Brown",
+    "raw_text": "--- Page 1 ---\nPatient Name: Meghan Fox\nPatient ID: 57881\nDate of Birth: 1985-06-30\nClinic: Johnson, Stevenson and Brown\nAnnotations:\n- 2025-03-24: Any third take put big compare. Your coach artist.\n- 2025-01-19: Better whole from factor exactly be responsibility. Church stand two food ask development \n- 2025-01-29: At pull him everyone your color couple.\n- 2025-03-02: Help may available individual leader heart. There power will attention attack."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 16
+}

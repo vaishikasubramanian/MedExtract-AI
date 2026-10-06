@@ -1,0 +1,29 @@
+{
+  "file": "lab_result_71.pdf",
+  "status": "ok",
+  "text": "--- Page 1 ---\nPatient Name: Daniela de Aragón\nPatient ID: 46222\nDate of Birth: 2007-04-11\nExam Date: 2025-01-09\nClinic: Mena-Marin\nTest Results:\n- Occaecati Test: 27.91 (Ref: 25-54)\n- Eaque Test: 10.07 (Ref: 27-37)\n- Perspiciatis Test: 16.06 (Ref: 13-33)\n- Eaque Test: 54.54 (Ref: 15-51)\nSummary: Quas error ipsam sit occaecati fuga ipsam laboriosam molestiae molestias.",
+  "language": "en",
+  "language_hint": "en",
+  "language_sample": "Patient Name: Daniela de Aragón\nPatient ID: 46222\nDate of Birth: 2007-04-11\nExam Date: 2025-01-09\nClinic: Mena-Marin\nTest Results:\n- Occaecati Test: 27.91 (Ref: 25-54)\n- Eaque Test: 10.07 (Ref: 27-37)\n- Perspiciatis Test: 16.06 (Ref: 13-33)\n- Eaque Test: 54.54 (Ref: 15-51)\nSummary: Quas error ipsam sit occaecati fuga ipsam laboriosam molestiae molestias.",
+  "method": "direct",
+  "document_type": "result",
+  "extracted_data": {
+    "patient_name": "Daniela de Aragón",
+    "patient_id": "46222",
+    "age": 1,
+    "sex": null,
+    "date_of_birth": "2007-04-11",
+    "exam_type": "Laboratory Test",
+    "study_area": null,
+    "exam_date": "2025-01-09",
+    "findings": "Occaecati Test: 27.91 (Reference: 25-54); Eaque Test: 10.07 (Reference: 27-37); Perspiciatis Test: 16.06 (Reference: 13-33); Eaque Test: 54.54 (Reference: 15-51)",
+    "impression": "Quas error ipsam sit occaecati fuga ipsam laboriosam molestiae molestias.",
+    "professional": null,
+    "institution": "Mena-Marin",
+    "notes": null,
+    "raw_text": "--- Page 1 ---\nPatient Name: Daniela de Aragón\nPatient ID: 46222\nDate of Birth: 2007-04-11\nExam Date: 2025-01-09\nClinic: Mena-Marin\nTest Results:\n- Occaecati Test: 27.91 (Ref: 25-54)\n- Eaque Test: 10.07 (Ref: 27-37)\n- Perspiciatis Test: 16.06 (Ref: 13-33)\n- Eaque Test: 54.54 (Ref: 15-51)\nSummary: Quas error ipsam sit occaecati fuga ipsam laboriosam molestiae molestias."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 1828
+}

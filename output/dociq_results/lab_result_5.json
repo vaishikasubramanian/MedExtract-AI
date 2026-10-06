@@ -1,0 +1,29 @@
+{
+  "file": "lab_result_5.pdf",
+  "status": "ok",
+  "text": "--- Page 1 ---\nPatient Name: Daniel Boyd\nPatient ID: 64627\nDate of Birth: 1968-03-04\nExam Date: 2025-03-20\nClinic: Hobbs, Krause and Smith\nTest Results:\n- Big Test: 58.03 (Ref: 29-48)\n- Main Test: 12.23 (Ref: 25-60)\n- Of Test: 35.21 (Ref: 14-60)\n- Cold Test: 50.04 (Ref: 27-40)\n- Position Test: 37.68 (Ref: 21-51)\nSummary: Night tell always economic her cut always occur.",
+  "language": "en",
+  "language_hint": "en",
+  "language_sample": "Patient Name: Daniel Boyd\nPatient ID: 64627\nDate of Birth: 1968-03-04\nExam Date: 2025-03-20\nClinic: Hobbs, Krause and Smith\nTest Results:\n- Big Test: 58.03 (Ref: 29-48)\n- Main Test: 12.23 (Ref: 25-60)\n- Of Test: 35.21 (Ref: 14-60)\n- Cold Test: 50.04 (Ref: 27-40)\n- Position Test: 37.68 (Ref: 21-51)\nSummary: Night tell always economic her cut always occur.",
+  "method": "direct",
+  "document_type": "result",
+  "extracted_data": {
+    "patient_name": "Daniel Boyd",
+    "patient_id": "64627",
+    "age": 1,
+    "sex": null,
+    "date_of_birth": "1968-03-04",
+    "exam_type": "Laboratory Test",
+    "study_area": null,
+    "exam_date": "2025-03-20",
+    "findings": "Big Test: 58.03 (Reference: 29-48); Main Test: 12.23 (Reference: 25-60); Of Test: 35.21 (Reference: 14-60); Cold Test: 50.04 (Reference: 27-40); Position Test: 37.68 (Reference: 21-51)",
+    "impression": "Night tell always economic her cut always occur.",
+    "professional": null,
+    "institution": "Hobbs, Krause and Smith",
+    "notes": null,
+    "raw_text": "--- Page 1 ---\nPatient Name: Daniel Boyd\nPatient ID: 64627\nDate of Birth: 1968-03-04\nExam Date: 2025-03-20\nClinic: Hobbs, Krause and Smith\nTest Results:\n- Big Test: 58.03 (Ref: 29-48)\n- Main Test: 12.23 (Ref: 25-60)\n- Of Test: 35.21 (Ref: 14-60)\n- Cold Test: 50.04 (Ref: 27-40)\n- Position Test: 37.68 (Ref: 21-51)\nSummary: Night tell always economic her cut always occur."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 16
+}

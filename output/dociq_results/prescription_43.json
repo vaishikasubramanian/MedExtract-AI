@@ -1,0 +1,36 @@
+{
+  "file": "prescription_43.png",
+  "status": "ok",
+  "text": "iption: 2025-01-15\nOneal\n1, Sheppard and Marshall\ne choose dark even because.",
+  "language": "en",
+  "language_hint": "unknown",
+  "language_sample": "",
+  "method": "image",
+  "document_type": "unknown",
+  "extracted_data": null,
+  "validated": false,
+  "error": null,
+  "elapsed_ms": 15
+}le": "Patient Name: Susan Thomas\nPatient ID: 16002\nDate of Birth: 1925-11-03\nDate of Prescription: 2025-01-15\nDoctor: Emily Oneal\nClinic: Nelson, Sheppard and Marshall\nPrescription:\nWin evidence choose dark even because.",
+  "method": "direct",
+  "document_type": "prescription",
+  "extracted_data": {
+    "patient_name": "Susan Thomas",
+    "patient_id": "16002",
+    "date": "2025-01-15",
+    "doctor_name": "Emily Oneal",
+    "institution": "Nelson, Sheppard and Marshall",
+    "additional_notes": null,
+    "items": [
+      {
+        "type": "other",
+        "name": "Win evidence choose dark even because.",
+        "notes": null
+      }
+    ],
+    "raw_text": "--- Page 1 ---\nPatient Name: Susan Thomas\nPatient ID: 16002\nDate of Birth: 1925-11-03\nDate of Prescription: 2025-01-15\nDoctor: Emily Oneal\nClinic: Nelson, Sheppard and Marshall\nPrescription:\nWin evidence choose dark even because."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 0
+}

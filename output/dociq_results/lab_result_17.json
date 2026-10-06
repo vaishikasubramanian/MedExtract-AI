@@ -1,0 +1,29 @@
+{
+  "file": "lab_result_17.png",
+  "status": "ok",
+  "text": "te of Birth: 1938-05-21\nam Date: 2025-03-07\ninic: Ne lson, Pe rkins and Miller\nst Results\nf Test 25.50 (Ref 30-50)\nadia Test 17.98 (Ref 22-38)\nmember Test 18.07 (Ref. 21-39)\ner Test 11.41 (Ret 21-46)",
+  "language": "en",
+  "language_hint": "unknown",
+  "language_sample": "",
+  "method": "image",
+  "document_type": "result",
+  "extracted_data": {
+    "patient_name": null,
+    "patient_id": null,
+    "age": null,
+    "sex": null,
+    "date_of_birth": null,
+    "exam_type": null,
+    "study_area": null,
+    "exam_date": null,
+    "findings": "No findings recorded",
+    "impression": null,
+    "professional": null,
+    "institution": null,
+    "notes": null,
+    "raw_text": "te of Birth: 1938-05-21\nam Date: 2025-03-07\ninic: Ne lson, Pe rkins and Miller\nst Results\nf Test 25.50 (Ref 30-50)\nadia Test 17.98 (Ref 22-38)\nmember Test 18.07 (Ref. 21-39)\ner Test 11.41 (Ret 21-46)"
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 3046
+}

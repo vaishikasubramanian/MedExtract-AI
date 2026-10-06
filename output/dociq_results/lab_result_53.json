@@ -1,0 +1,46 @@
+{
+  "file": "lab_result_53.png",
+  "status": "ok",
+  "text": "e of Birth: 1940-08-16\nehtID6/128\nm Date: 2025-01-11\nnic: Roldan, Alcaltand MenBndez\ntResults\nnsectetur Test 32.27 (Ref 26-40)\nibusdam Test 24.24 (Ref: 12-50)\npisci Test 23.24 (Ref. 21-45)\noudiandae Test 40.30 (Ret 28-50)\nterat Test 19.86 (Ref. 16-48)",
+  "language": "en",
+  "language_hint": "unknown",
+  "language_sample": "",
+  "method": "image",
+  "document_type": "result",
+  "extracted_data": {
+    "patient_name": null,
+    "patient_id": null,
+    "age": null,
+    "sex": null,
+    "date_of_birth": null,
+    "exam_type": null,
+    "study_area": null,
+    "exam_date": null,
+    "findings": "No findings recorded",
+    "impression": null,
+    "professional": null,
+    "institution": null,
+    "notes": null,
+    "raw_text": "e of Birth: 1940-08-16\nehtID6/128\nm Date: 2025-01-11\nnic: Roldan, Alcaltand MenBndez\ntResults\nnsectetur Test 32.27 (Ref 26-40)\nibusdam Test 24.24 (Ref: 12-50)\npisci Test 23.24 (Ref. 21-45)\noudiandae Test 40.30 (Ret 28-50)\nterat Test 19.86 (Ref. 16-48)"
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 5766
+}
+    "age": 1,
+    "sex": null,
+    "date_of_birth": "1940-08-16",
+    "exam_type": "Laboratory Test",
+    "study_area": null,
+    "exam_date": "2025-01-11",
+    "findings": "Consectetur Test: 32.27 (Reference: 26-40); Quibusdam Test: 24.24 (Reference: 12-50); Adipisci Test: 23.24 (Reference: 21-45); Repudiandae Test: 40.30 (Reference: 28-50); Quaerat Test: 19.86 (Reference: 16-48)",
+    "impression": "Expedita nulla commodi at commodi harum hic sit perferendis ipsam.",
+    "professional": null,
+    "institution": "Roldan, Alcalá and Menéndez",
+    "notes": null,
+    "raw_text": "--- Page 1 ---\nPatient Name: Felicidad de Granados\nPatient ID: 67129\nDate of Birth: 1940-08-16\nExam Date: 2025-01-11\nClinic: Roldan, Alcalá and Menéndez\nTest Results:\n- Consectetur Test: 32.27 (Ref: 26-40)\n- Quibusdam Test: 24.24 (Ref: 12-50)\n- Adipisci Test: 23.24 (Ref: 21-45)\n- Repudiandae Test: 40.30 (Ref: 28-50)\n- Quaerat Test: 19.86 (Ref: 16-48)\nSummary: Expedita nulla commodi at commodi harum hic sit perferendis ipsam."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 1358
+}

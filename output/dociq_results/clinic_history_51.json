@@ -1,0 +1,37 @@
+{
+  "file": "clinic_history_51.png",
+  "status": "ok",
+  "text": "tient ID.76104\nte of Birth: 1989-03-11\nnic: Rojas Burgess and Murphy\nnotations\n25-01-19: Team general area knowledge.",
+  "language": "en",
+  "language_hint": "unknown",
+  "language_sample": "",
+  "method": "image",
+  "document_type": "unknown",
+  "extracted_data": null,
+  "validated": false,
+  "error": null,
+  "elapsed_ms": 1688
+}ge_sample": "Patient Name: Sandalio Vidal\nPatient ID: 39846\nDate of Birth: 1996-08-21\nClinic: Pagès and Sons\nAnnotations:\n- 2025-02-05: Atque incidunt a et dolore soluta ipsa.\n- 2025-04-16: Ipsam aliquid molestias amet odit.\n- 2025-02-12: Autem doloremque veritatis.",
+  "method": "direct",
+  "document_type": "clinical_history",
+  "extracted_data": {
+    "patient_name": "Sandalio Vidal",
+    "patient_id": "39846",
+    "age": 1,
+    "sex": null,
+    "date_of_birth": "1996-08-21",
+    "consultation_date": "2025-04-16",
+    "chief_complaint": "Ipsam aliquid molestias amet odit.",
+    "medical_history": "2025-02-05: Atque incidunt a et dolore soluta ipsa.\n2025-04-16: Ipsam aliquid molestias amet odit.\n2025-02-12: Autem doloremque veritatis.",
+    "current_medications": null,
+    "physical_exam": null,
+    "assessment": null,
+    "plan": null,
+    "doctor_name": null,
+    "institution": "Pagès and Sons",
+    "raw_text": "--- Page 1 ---\nPatient Name: Sandalio Vidal\nPatient ID: 39846\nDate of Birth: 1996-08-21\nClinic: Pagès and Sons\nAnnotations:\n- 2025-02-05: Atque incidunt a et dolore soluta ipsa.\n- 2025-04-16: Ipsam aliquid molestias amet odit.\n- 2025-02-12: Autem doloremque veritatis."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 1750
+}

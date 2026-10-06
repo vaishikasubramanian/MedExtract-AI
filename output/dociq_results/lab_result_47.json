@@ -1,0 +1,29 @@
+{
+  "file": "lab_result_47.pdf",
+  "status": "ok",
+  "text": "--- Page 1 ---\nPatient Name: Yago Escamilla Bru\nPatient ID: 52046\nDate of Birth: 1940-05-30\nExam Date: 2025-01-28\nClinic: Perea LLC\nTest Results:\n- Aliquid Test: 13.11 (Ref: 10-50)\n- Similique Test: 47.29 (Ref: 19-36)\n- Est Test: 43.65 (Ref: 25-45)\n- Quae Test: 40.06 (Ref: 14-53)\nSummary: Earum iusto explicabo autem tempora voluptates magni velit quaerat optio corporis vero conse",
+  "language": "en",
+  "language_hint": "en",
+  "language_sample": "Patient Name: Yago Escamilla Bru\nPatient ID: 52046\nDate of Birth: 1940-05-30\nExam Date: 2025-01-28\nClinic: Perea LLC\nTest Results:\n- Aliquid Test: 13.11 (Ref: 10-50)\n- Similique Test: 47.29 (Ref: 19-36)\n- Est Test: 43.65 (Ref: 25-45)\n- Quae Test: 40.06 (Ref: 14-53)\nSummary: Earum iusto explicabo autem tempora voluptates magni velit quaerat optio corporis vero conse",
+  "method": "direct",
+  "document_type": "result",
+  "extracted_data": {
+    "patient_name": "Yago Escamilla Bru",
+    "patient_id": "52046",
+    "age": 1,
+    "sex": null,
+    "date_of_birth": "1940-05-30",
+    "exam_type": "Laboratory Test",
+    "study_area": null,
+    "exam_date": "2025-01-28",
+    "findings": "Aliquid Test: 13.11 (Reference: 10-50); Similique Test: 47.29 (Reference: 19-36); Est Test: 43.65 (Reference: 25-45); Quae Test: 40.06 (Reference: 14-53)",
+    "impression": "Earum iusto explicabo autem tempora voluptates magni velit quaerat optio corporis vero conse",
+    "professional": null,
+    "institution": "Perea LLC",
+    "notes": null,
+    "raw_text": "--- Page 1 ---\nPatient Name: Yago Escamilla Bru\nPatient ID: 52046\nDate of Birth: 1940-05-30\nExam Date: 2025-01-28\nClinic: Perea LLC\nTest Results:\n- Aliquid Test: 13.11 (Ref: 10-50)\n- Similique Test: 47.29 (Ref: 19-36)\n- Est Test: 43.65 (Ref: 25-45)\n- Quae Test: 40.06 (Ref: 14-53)\nSummary: Earum iusto explicabo autem tempora voluptates magni velit quaerat optio corporis vero conse"
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 420
+}

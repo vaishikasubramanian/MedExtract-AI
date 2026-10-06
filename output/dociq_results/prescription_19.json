@@ -1,0 +1,29 @@
+{
+  "file": "prescription_19.pdf",
+  "status": "ok",
+  "text": "--- Page 1 ---\nPatient Name: Randy Butler\nPatient ID: 22729\nDate of Birth: 1976-02-20\nDate of Prescription: 2025-01-12\nDoctor: Stacey Meza DDS\nClinic: Ramsey-Gonzales\nPrescription:\nMoment forward technology fast find arm house lead evidence.",
+  "language": "en",
+  "language_hint": "en",
+  "language_sample": "Patient Name: Randy Butler\nPatient ID: 22729\nDate of Birth: 1976-02-20\nDate of Prescription: 2025-01-12\nDoctor: Stacey Meza DDS\nClinic: Ramsey-Gonzales\nPrescription:\nMoment forward technology fast find arm house lead evidence.",
+  "method": "direct",
+  "document_type": "prescription",
+  "extracted_data": {
+    "patient_name": "Randy Butler",
+    "patient_id": "22729",
+    "date": "2025-01-12",
+    "doctor_name": "Stacey Meza DDS",
+    "institution": "Ramsey-Gonzales",
+    "additional_notes": null,
+    "items": [
+      {
+        "type": "other",
+        "name": "Moment forward technology fast find arm house lead evidence.",
+        "notes": null
+      }
+    ],
+    "raw_text": "--- Page 1 ---\nPatient Name: Randy Butler\nPatient ID: 22729\nDate of Birth: 1976-02-20\nDate of Prescription: 2025-01-12\nDoctor: Stacey Meza DDS\nClinic: Ramsey-Gonzales\nPrescription:\nMoment forward technology fast find arm house lead evidence."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 0
+}

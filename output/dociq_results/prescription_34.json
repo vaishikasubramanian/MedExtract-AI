@@ -1,0 +1,36 @@
+{
+  "file": "prescription_34.png",
+  "status": "ok",
+  "text": "-06-28\nn: 2025-03-16\nns\nnnon\nothers degree.",
+  "language": "unknown",
+  "language_hint": "unknown",
+  "language_sample": "",
+  "method": "image",
+  "document_type": "unknown",
+  "extracted_data": null,
+  "validated": false,
+  "error": null,
+  "elapsed_ms": 5264
+}sample": "Patient Name: Amanda Mcgee\nPatient ID: 77423\nDate of Birth: 1927-06-28\nDate of Prescription: 2025-03-16\nDoctor: Mark Collins\nClinic: Bolton-Cannon\nPrescription:\nReally authority others degree.",
+  "method": "direct",
+  "document_type": "prescription",
+  "extracted_data": {
+    "patient_name": "Amanda Mcgee",
+    "patient_id": "77423",
+    "date": "2025-03-16",
+    "doctor_name": "Mark Collins",
+    "institution": "Bolton-Cannon",
+    "additional_notes": null,
+    "items": [
+      {
+        "type": "other",
+        "name": "Really authority others degree.",
+        "notes": null
+      }
+    ],
+    "raw_text": "--- Page 1 ---\nPatient Name: Amanda Mcgee\nPatient ID: 77423\nDate of Birth: 1927-06-28\nDate of Prescription: 2025-03-16\nDoctor: Mark Collins\nClinic: Bolton-Cannon\nPrescription:\nReally authority others degree."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 16
+}

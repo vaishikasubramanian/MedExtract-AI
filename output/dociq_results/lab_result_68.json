@@ -1,0 +1,29 @@
+{
+  "file": "lab_result_68.pdf",
+  "status": "ok",
+  "text": "--- Page 1 ---\nPatient Name: José Antonio Robles González\nPatient ID: 36197\nDate of Birth: 1911-03-18\nExam Date: 2025-03-11\nClinic: Lago Group\nTest Results:\n- Beatae Test: 59.95 (Ref: 29-59)\n- Laborum Test: 57.38 (Ref: 20-34)\n- Sed Test: 21.79 (Ref: 16-57)\nSummary: Fuga quam quam nemo a architecto architecto quaerat quibusdam reiciendis.",
+  "language": "en",
+  "language_hint": "en",
+  "language_sample": "Patient Name: José Antonio Robles González\nPatient ID: 36197\nDate of Birth: 1911-03-18\nExam Date: 2025-03-11\nClinic: Lago Group\nTest Results:\n- Beatae Test: 59.95 (Ref: 29-59)\n- Laborum Test: 57.38 (Ref: 20-34)\n- Sed Test: 21.79 (Ref: 16-57)\nSummary: Fuga quam quam nemo a architecto architecto quaerat quibusdam reiciendis.",
+  "method": "direct",
+  "document_type": "result",
+  "extracted_data": {
+    "patient_name": "José Antonio Robles González",
+    "patient_id": "36197",
+    "age": 1,
+    "sex": null,
+    "date_of_birth": "1911-03-18",
+    "exam_type": "Laboratory Test",
+    "study_area": null,
+    "exam_date": "2025-03-11",
+    "findings": "Beatae Test: 59.95 (Reference: 29-59); Laborum Test: 57.38 (Reference: 20-34); Sed Test: 21.79 (Reference: 16-57)",
+    "impression": "Fuga quam quam nemo a architecto architecto quaerat quibusdam reiciendis.",
+    "professional": null,
+    "institution": "Lago Group",
+    "notes": null,
+    "raw_text": "--- Page 1 ---\nPatient Name: José Antonio Robles González\nPatient ID: 36197\nDate of Birth: 1911-03-18\nExam Date: 2025-03-11\nClinic: Lago Group\nTest Results:\n- Beatae Test: 59.95 (Ref: 29-59)\n- Laborum Test: 57.38 (Ref: 20-34)\n- Sed Test: 21.79 (Ref: 16-57)\nSummary: Fuga quam quam nemo a architecto architecto quaerat quibusdam reiciendis."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 47
+}

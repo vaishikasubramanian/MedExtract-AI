@@ -1,0 +1,36 @@
+{
+  "file": "prescription_88.png",
+  "status": "ok",
+  "text": ":1920-05-06\neription: 2025-04-06\nan Ortega Anaya\nDo Group\nT\na pariaturexpedita tenetur.",
+  "language": "en",
+  "language_hint": "unknown",
+  "language_sample": "",
+  "method": "image",
+  "document_type": "unknown",
+  "extracted_data": null,
+  "validated": false,
+  "error": null,
+  "elapsed_ms": 0
+}atient Name: Belen Huertas Barrena\nPatient ID: 82413\nDate of Birth: 1920-05-06\nDate of Prescription: 2025-04-06\nDoctor: Tristán Ortega Anaya\nClinic: Mariño Group\nPrescription:\nAliquid fuga pariatur expedita tenetur.",
+  "method": "direct",
+  "document_type": "prescription",
+  "extracted_data": {
+    "patient_name": "Belen Huertas Barrena",
+    "patient_id": "82413",
+    "date": "2025-04-06",
+    "doctor_name": "Tristán Ortega Anaya",
+    "institution": "Mariño Group",
+    "additional_notes": null,
+    "items": [
+      {
+        "type": "other",
+        "name": "Aliquid fuga pariatur expedita tenetur.",
+        "notes": null
+      }
+    ],
+    "raw_text": "--- Page 1 ---\nPatient Name: Belen Huertas Barrena\nPatient ID: 82413\nDate of Birth: 1920-05-06\nDate of Prescription: 2025-04-06\nDoctor: Tristán Ortega Anaya\nClinic: Mariño Group\nPrescription:\nAliquid fuga pariatur expedita tenetur."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 30
+}

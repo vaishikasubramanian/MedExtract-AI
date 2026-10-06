@@ -1,0 +1,77 @@
+"""Request and response models for the MedExtract-AI REST API.
+
+These Pydantic models define the API contract and are rendered
+automatically in the OpenAPI / Swagger docs at ``/docs``.
+"""
+
+from __future__ import annotations
+
+from typing import Any, Dict, List, Optional
+
+from pydantic import BaseModel, Field
+
+
+# ── Health / Readiness ────────────────────────────────────────────
+
+class HealthResponse(BaseModel):
+    """Response for GET /health."""
+    status: str = Field(..., description="Service status.", examples=["ok"])
+    version: str = Field(..., description="MedExtract-AI version string.", examples=["1.0.0"])
+    uptime_seconds: float = Field(..., description="Seconds since the process started.")
+    timestamp: str = Field(..., description="Current server UTC timestamp in ISO-8601.")
+
+
+class ReadinessCheck(BaseModel):
+    """Individual readiness dependency check."""
+    name: str
+    available: bool
+    detail: Optional[str] = None
+    elapsed_ms: float = Field(0.0, description="Time taken to run this check in ms.")
+
+
+class ReadinessResponse(BaseModel):
+    """Response for GET /ready."""
+    ready: bool = Field(..., description="True when all dependencies are available.")
+    checks: List[ReadinessCheck]
+    total_elapsed_ms: float = Field(0.0, description="Total time for all checks in ms.")
+
+
+# ── Processing ────────────────────────────────────────────────────
+
+class PageResult(BaseModel):
+    """Per-page processing result for multi-page PDFs."""
+    page: int = Field(..., description="1-based page number.")
+    status: str = Field("ok", description="ok | skipped | inference_error")
+    document_type: Optional[str] = Field(None, description="Classified document type for this page.")
+    extracted_data: Optional[Dict[str, Any]] = Field(None, description="Structured NER output.")
+    validated: bool = Field(False, description="Whether the data passed schema validation.")
+    error: Optional[str] = Field(None, description="Error message if processing failed.")
+
+
+class ProcessingResult(BaseModel):
+    """Single-document processing result."""
+    file: str = Field(..., description="Original filename.")
+    status: str = Field(..., description="ok | extraction_error | inference_error")
+    language: str = Field("unknown", description="Detected language.")
+    method: str = Field("", description="Extraction method: direct | ocr | image.")
+    document_type: Optional[str] = Field(None, description="Classified document type.")
+    extracted_data: Optional[Dict[str, Any]] = Field(None, description="Structured NER output.")
+    validated: bool = Field(False, description="Whether the data passed schema validation.")
+    error: Optional[str] = Field(None, description="Error message if processing failed.")
+    elapsed_ms: int = Field(0, description="Processing time in milliseconds.")
+    page_count: Optional[int] = Field(None, description="Number of pages (multi-page PDFs).")
+    pages: Optional[List[PageResult]] = Field(None, description="Per-page results (multi-page PDFs).")
+
+
+class ProcessingResponse(BaseModel):
+    """Response for POST /process."""
+    results: List[ProcessingResult]
+    summary: Dict[str, int] = Field(
+        ..., description="Count of results by status (ok, extraction_error, etc.)."
+    )
+
+
+class ErrorResponse(BaseModel):
+    """Standard error envelope."""
+    error: str = Field(..., description="Error type.")
+    detail: str = Field(..., description="Human-readable description.")

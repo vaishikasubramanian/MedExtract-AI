@@ -1,0 +1,42 @@
+{
+  "file": "prescription_1.png",
+  "status": "ok",
+  "text": "f Birth: 2012-05-02\nf Prescription: 2025-04-08\n. Richard Drake\nBullock-Wilson\niption:\nr race eatcitizen body meeting clear dog",
+  "language": "en",
+  "language_hint": "unknown",
+  "language_sample": "",
+  "method": "image",
+  "document_type": "prescription",
+  "extracted_data": {
+    "patient_name": null,
+    "patient_id": null,
+    "date": null,
+    "doctor_name": null,
+    "institution": null,
+    "additional_notes": null,
+    "items": [
+      {
+        "type": "other",
+        "name": "Prescription",
+        "notes": null
+      }
+    ],
+    "raw_text": "f Birth: 2012-05-02\nf Prescription: 2025-04-08\n. Richard Drake\nBullock-Wilson\niption:\nr race eatcitizen body meeting clear dog"
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 46
+}l_notes": null,
+    "items": [
+      {
+        "type": "other",
+        "name": "Mother race eat citizen body meeting clear dog.",
+        "notes": null
+      }
+    ],
+    "raw_text": "--- Page 1 ---\nPatient Name: Robert Hodge\nPatient ID: 13091\nDate of Birth: 2012-05-02\nDate of Prescription: 2025-04-08\nDoctor: Richard Drake\nClinic: Bullock-Wilson\nPrescription:\nMother race eat citizen body meeting clear dog."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 1813
+}

@@ -1,0 +1,43 @@
+{
+  "file": "lab_result_32.png",
+  "status": "ok",
+  "text": "e of Birth: 2013-10-10\nm Date: 2025-04-06\nnic: Vincent Griffin and Alexander\nt Results\nIdier Test 42.08 (Ref. 22-51)\nbe resting Test 54.99 (Ref 27-56)\nck Test 44.97 (Ref. 23-35)",
+  "language": "en",
+  "language_hint": "unknown",
+  "language_sample": "",
+  "method": "image",
+  "document_type": "result",
+  "extracted_data": {
+    "patient_name": null,
+    "patient_id": null,
+    "age": null,
+    "sex": null,
+    "date_of_birth": null,
+    "exam_type": null,
+    "study_area": null,
+    "exam_date": null,
+    "findings": "No findings recorded",
+    "impression": null,
+    "professional": null,
+    "institution": null,
+    "notes": null,
+    "raw_text": "e of Birth: 2013-10-10\nm Date: 2025-04-06\nnic: Vincent Griffin and Alexander\nt Results\nIdier Test 42.08 (Ref. 22-51)\nbe resting Test 54.99 (Ref 27-56)\nck Test 44.97 (Ref. 23-35)"
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 2125
+}f_birth": "2013-10-10",
+    "exam_type": "Laboratory Test",
+    "study_area": null,
+    "exam_date": "2025-04-06",
+    "findings": "Soldier Test: 42.08 (Reference: 22-51); Interesting Test: 54.99 (Reference: 27-56); Back Test: 44.97 (Reference: 23-35)",
+    "impression": "Sport according message keep Mr could her institution effort.",
+    "professional": null,
+    "institution": "Vincent, Griffin and Alexander",
+    "notes": null,
+    "raw_text": "--- Page 1 ---\nPatient Name: David Romero\nPatient ID: 79968\nDate of Birth: 2013-10-10\nExam Date: 2025-04-06\nClinic: Vincent, Griffin and Alexander\nTest Results:\n- Soldier Test: 42.08 (Ref: 22-51)\n- Interesting Test: 54.99 (Ref: 27-56)\n- Back Test: 44.97 (Ref: 23-35)\nSummary: Sport according message keep Mr could her institution effort."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 78
+}

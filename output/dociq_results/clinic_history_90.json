@@ -1,0 +1,30 @@
+{
+  "file": "clinic_history_90.pdf",
+  "status": "ok",
+  "text": "--- Page 1 ---\nPatient Name: Salomón Hidalgo Mendizábal\nPatient ID: 36892\nDate of Birth: 1914-06-24\nClinic: Vila, Granados and Costa\nAnnotations:\n- 2025-03-20: Libero repellendus soluta exercitationem.\n- 2025-04-03: Voluptatum accusamus vero.\n- 2025-03-22: Libero veritatis corrupti illo nisi.\n- 2025-02-22: Ipsam repellendus praesentium quos. Voluptates earum architecto porro unde ipsa.",
+  "language": "unknown",
+  "language_hint": "unknown",
+  "language_sample": "Patient Name: Salomón Hidalgo Mendizábal\nPatient ID: 36892\nDate of Birth: 1914-06-24\nClinic: Vila, Granados and Costa\nAnnotations:\n- 2025-03-20: Libero repellendus soluta exercitationem.\n- 2025-04-03: Voluptatum accusamus vero.\n- 2025-03-22: Libero veritatis corrupti illo nisi.\n- 2025-02-22: Ipsam repellendus praesentium quos. Voluptates earum architecto porro unde ipsa.",
+  "method": "direct",
+  "document_type": "clinical_history",
+  "extracted_data": {
+    "patient_name": "Salomón Hidalgo Mendizábal",
+    "patient_id": "36892",
+    "age": 1,
+    "sex": null,
+    "date_of_birth": "1914-06-24",
+    "consultation_date": "2025-04-03",
+    "chief_complaint": "Voluptatum accusamus vero.",
+    "medical_history": "2025-03-20: Libero repellendus soluta exercitationem.\n2025-04-03: Voluptatum accusamus vero.\n2025-03-22: Libero veritatis corrupti illo nisi.\n2025-02-22: Ipsam repellendus praesentium quos. Voluptates earum architecto porro unde ipsa.",
+    "current_medications": null,
+    "physical_exam": null,
+    "assessment": null,
+    "plan": null,
+    "doctor_name": null,
+    "institution": "Vila, Granados and Costa",
+    "raw_text": "--- Page 1 ---\nPatient Name: Salomón Hidalgo Mendizábal\nPatient ID: 36892\nDate of Birth: 1914-06-24\nClinic: Vila, Granados and Costa\nAnnotations:\n- 2025-03-20: Libero repellendus soluta exercitationem.\n- 2025-04-03: Voluptatum accusamus vero.\n- 2025-03-22: Libero veritatis corrupti illo nisi.\n- 2025-02-22: Ipsam repellendus praesentium quos. Voluptates earum architecto porro unde ipsa."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 32
+}

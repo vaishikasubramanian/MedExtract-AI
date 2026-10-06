@@ -1,0 +1,79 @@
+# ══════════════════════════════════════════════════════════════════
+# MedExtract-AI – Docker Compose
+# ══════════════════════════════════════════════════════════════════
+# Usage:
+#   docker compose up              # API server (default)
+#   docker compose up --build      # rebuild and start
+#   docker compose --profile dev up # run with test suite
+# ══════════════════════════════════════════════════════════════════
+
+services:
+  # ── API Server (default) ───────────────────────────────────────
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: medextract:latest
+    container_name: medextract-api
+    ports:
+      - "${MEDEXTRACT_API_PORT:-8000}:8000"
+    volumes:
+      - ./output:/app/output
+      - ./data:/data:ro
+    environment:
+      - MEDEXTRACT_LOG_LEVEL=${MEDEXTRACT_LOG_LEVEL:-INFO}
+      - MEDEXTRACT_LOG_FORMAT=${MEDEXTRACT_LOG_FORMAT:-json}
+      - MEDEXTRACT_API_WORKERS=${MEDEXTRACT_API_WORKERS:-1}
+      # LLM enhancement (opt-in)
+      - MEDEXTRACT_LLM_ENABLED=${MEDEXTRACT_LLM_ENABLED:-false}
+      - MEDEXTRACT_LLM_ENDPOINT=${MEDEXTRACT_LLM_ENDPOINT:-http://192.168.137.100:11434}
+      - MEDEXTRACT_LLM_MODEL=${MEDEXTRACT_LLM_MODEL:-medextract-medical}
+      - MEDEXTRACT_LLM_TIMEOUT=${MEDEXTRACT_LLM_TIMEOUT:-120}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      start_period: 15s
+      retries: 3
+
+  # ── CLI Runner (on-demand) ─────────────────────────────────────
+  cli:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: medextract:latest
+    container_name: medextract-cli
+    volumes:
+      - ./output:/app/output
+      - ./data:/data:ro
+    environment:
+      - MEDEXTRACT_LOG_LEVEL=${MEDEXTRACT_LOG_LEVEL:-INFO}
+      - MEDEXTRACT_LOG_FORMAT=${MEDEXTRACT_LOG_FORMAT:-text}
+      - MEDEXTRACT_LLM_ENABLED=${MEDEXTRACT_LLM_ENABLED:-false}
+      - MEDEXTRACT_LLM_ENDPOINT=${MEDEXTRACT_LLM_ENDPOINT:-http://192.168.137.100:11434}
+      - MEDEXTRACT_LLM_MODEL=${MEDEXTRACT_LLM_MODEL:-medextract-medical}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    entrypoint: ["python", "-m", "src.main"]
+    command: ["--input", "/data", "--output-dir", "/app/output"]
+    profiles:
+      - cli
+
+  # ── Test Runner (dev only) ─────────────────────────────────────
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runtime
+    image: medextract:latest
+    container_name: medextract-test
+    volumes:
+      - .:/app:ro
+    working_dir: /app
+    entrypoint: ["python", "-m", "pytest"]
+    command: ["-v", "--tb=short"]
+    profiles:
+      - dev

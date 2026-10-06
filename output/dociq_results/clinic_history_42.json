@@ -1,0 +1,30 @@
+{
+  "file": "clinic_history_42.pdf",
+  "status": "ok",
+  "text": "--- Page 1 ---\nPatient Name: Patty Holmes\nPatient ID: 31925\nDate of Birth: 1958-04-05\nClinic: Jones and Sons\nAnnotations:\n- 2025-01-30: Data consider national ask three my.\n- 2025-02-01: Argue develop record weight.",
+  "language": "en",
+  "language_hint": "en",
+  "language_sample": "Patient Name: Patty Holmes\nPatient ID: 31925\nDate of Birth: 1958-04-05\nClinic: Jones and Sons\nAnnotations:\n- 2025-01-30: Data consider national ask three my.\n- 2025-02-01: Argue develop record weight.",
+  "method": "direct",
+  "document_type": "clinical_history",
+  "extracted_data": {
+    "patient_name": "Patty Holmes",
+    "patient_id": "31925",
+    "age": 1,
+    "sex": null,
+    "date_of_birth": "1958-04-05",
+    "consultation_date": "2025-02-01",
+    "chief_complaint": "Argue develop record weight.",
+    "medical_history": "2025-01-30: Data consider national ask three my.\n2025-02-01: Argue develop record weight.",
+    "current_medications": null,
+    "physical_exam": null,
+    "assessment": null,
+    "plan": null,
+    "doctor_name": null,
+    "institution": "Jones and Sons",
+    "raw_text": "--- Page 1 ---\nPatient Name: Patty Holmes\nPatient ID: 31925\nDate of Birth: 1958-04-05\nClinic: Jones and Sons\nAnnotations:\n- 2025-01-30: Data consider national ask three my.\n- 2025-02-01: Argue develop record weight."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 16
+}

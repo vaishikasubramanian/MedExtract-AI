@@ -1,0 +1,37 @@
+{
+  "file": "clinic_history_36.png",
+  "status": "ok",
+  "text": "te of Birth: 1927-10-27\nnic Carter and Sons\nnotations\n25-03-25: Against law bank song.",
+  "language": "en",
+  "language_hint": "unknown",
+  "language_sample": "",
+  "method": "image",
+  "document_type": "unknown",
+  "extracted_data": null,
+  "validated": false,
+  "error": null,
+  "elapsed_ms": 3688
+}thew Sanchez\nPatient ID: 69720\nDate of Birth: 2023-03-20\nClinic: Daniel-Hill\nAnnotations:\n- 2025-01-18: Anything policy force scene whose.\n- 2025-04-21: Movement weight question or.",
+  "method": "direct",
+  "document_type": "clinical_history",
+  "extracted_data": {
+    "patient_name": "Matthew Sanchez",
+    "patient_id": "69720",
+    "age": 1,
+    "sex": null,
+    "date_of_birth": "2023-03-20",
+    "consultation_date": "2025-04-21",
+    "chief_complaint": "Movement weight question or.",
+    "medical_history": "2025-01-18: Anything policy force scene whose.\n2025-04-21: Movement weight question or.",
+    "current_medications": null,
+    "physical_exam": null,
+    "assessment": null,
+    "plan": null,
+    "doctor_name": null,
+    "institution": "Daniel-Hill",
+    "raw_text": "--- Page 1 ---\nPatient Name: Matthew Sanchez\nPatient ID: 69720\nDate of Birth: 2023-03-20\nClinic: Daniel-Hill\nAnnotations:\n- 2025-01-18: Anything policy force scene whose.\n- 2025-04-21: Movement weight question or."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 16
+}

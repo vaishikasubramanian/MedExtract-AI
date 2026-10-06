@@ -1,0 +1,39 @@
+{
+  "file": "lab_result_35.png",
+  "status": "ok",
+  "text": "ate of Birth: 1978-08-08\ncam Date: 2025-02-08\ninic: Vasquez-Jackson\nst Results\nnimal Test 15.01 (Ret 11-42)\nemocratic Test 38.11 (Ref 27-46)\nnmary. Yet rather whatever state ment outside hand learn.",
+  "language": "en",
+  "language_hint": "unknown",
+  "language_sample": "",
+  "method": "image",
+  "document_type": "result",
+  "extracted_data": {
+    "patient_name": null,
+    "patient_id": null,
+    "age": null,
+    "sex": null,
+    "date_of_birth": null,
+    "exam_type": null,
+    "study_area": null,
+    "exam_date": null,
+    "findings": "No findings recorded",
+    "impression": null,
+    "professional": null,
+    "institution": null,
+    "notes": null,
+    "raw_text": "ate of Birth: 1978-08-08\ncam Date: 2025-02-08\ninic: Vasquez-Jackson\nst Results\nnimal Test 15.01 (Ret 11-42)\nemocratic Test 38.11 (Ref 27-46)\nnmary. Yet rather whatever state ment outside hand learn."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 967
+}1-42); Democratic Test: 38.11 (Reference: 27-46)",
+    "impression": "Yet rather whatever statement outside hand learn.",
+    "professional": null,
+    "institution": "Vasquez-Jackson",
+    "notes": null,
+    "raw_text": "--- Page 1 ---\nPatient Name: Molly Clark\nPatient ID: 87766\nDate of Birth: 1978-08-08\nExam Date: 2025-02-08\nClinic: Vasquez-Jackson\nTest Results:\n- Animal Test: 15.01 (Ref: 11-42)\n- Democratic Test: 38.11 (Ref: 27-46)\nSummary: Yet rather whatever statement outside hand learn."
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 1312
+}

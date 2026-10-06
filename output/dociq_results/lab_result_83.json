@@ -1,0 +1,29 @@
+{
+  "file": "lab_result_83.pdf",
+  "status": "ok",
+  "text": "--- Page 1 ---\nPatient Name: Clementina Macarena Fajardo Mascaró\nPatient ID: 81419\nDate of Birth: 2009-04-13\nExam Date: 2025-01-13\nClinic: Montesinos, Calderón and Poza\nTest Results:\n- Doloremque Test: 50.53 (Ref: 25-42)\n- Voluptatem Test: 35.86 (Ref: 10-33)\n- Nam Test: 59.86 (Ref: 16-33)\n- Ipsa Test: 41.56 (Ref: 14-45)\n- Vero Test: 32.29 (Ref: 23-32)\nSummary: Neque et porro saepe illum neque tenetur laborum pariatur dolor animi voluptates reprehende",
+  "language": "en",
+  "language_hint": "en",
+  "language_sample": "Patient Name: Clementina Macarena Fajardo Mascaró\nPatient ID: 81419\nDate of Birth: 2009-04-13\nExam Date: 2025-01-13\nClinic: Montesinos, Calderón and Poza\nTest Results:\n- Doloremque Test: 50.53 (Ref: 25-42)\n- Voluptatem Test: 35.86 (Ref: 10-33)\n- Nam Test: 59.86 (Ref: 16-33)\n- Ipsa Test: 41.56 (Ref: 14-45)\n- Vero Test: 32.29 (Ref: 23-32)\nSummary: Neque et porro saepe illum neque tenetur laborum pariatur dolor animi voluptates reprehende",
+  "method": "direct",
+  "document_type": "result",
+  "extracted_data": {
+    "patient_name": "Clementina Macarena Fajardo Mascaró",
+    "patient_id": "81419",
+    "age": 1,
+    "sex": null,
+    "date_of_birth": "2009-04-13",
+    "exam_type": "Laboratory Test",
+    "study_area": null,
+    "exam_date": "2025-01-13",
+    "findings": "Doloremque Test: 50.53 (Reference: 25-42); Voluptatem Test: 35.86 (Reference: 10-33); Nam Test: 59.86 (Reference: 16-33); Ipsa Test: 41.56 (Reference: 14-45); Vero Test: 32.29 (Reference: 23-32)",
+    "impression": "Neque et porro saepe illum neque tenetur laborum pariatur dolor animi voluptates reprehende",
+    "professional": null,
+    "institution": "Montesinos, Calderón and Poza",
+    "notes": null,
+    "raw_text": "--- Page 1 ---\nPatient Name: Clementina Macarena Fajardo Mascaró\nPatient ID: 81419\nDate of Birth: 2009-04-13\nExam Date: 2025-01-13\nClinic: Montesinos, Calderón and Poza\nTest Results:\n- Doloremque Test: 50.53 (Ref: 25-42)\n- Voluptatem Test: 35.86 (Ref: 10-33)\n- Nam Test: 59.86 (Ref: 16-33)\n- Ipsa Test: 41.56 (Ref: 14-45)\n- Vero Test: 32.29 (Ref: 23-32)\nSummary: Neque et porro saepe illum neque tenetur laborum pariatur dolor animi voluptates reprehende"
+  },
+  "validated": true,
+  "error": null,
+  "elapsed_ms": 4422
+}
